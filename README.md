@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# acorn202304_react 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 목차
 
-## Available Scripts
+1. [프로젝트 소개](#프로젝트-소개)
+2. [사용된 기술 스택](#사용된-기술-스택)
+3. [프로젝트 구조](#프로젝트-구조)
 
-In the project directory, you can run:
+## 프로젝트 소개
 
-### `npm start`
+이 프로젝트는 React를 사용하여 다양한 웹 페이지와 컴포넌트를 구현 수업내용.
+React를 활용하여 각종 구현을 공부했습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 사용된 기술 스택
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: 프론트엔드 개발을 위한 JavaScript 라이브러리
+- **JavaScript**: 클라이언트 측 로직을 처리하기 위한 언어
+- **CSS**: 스타일링을 위해 사용.
 
-### `npm test`
+## 프로젝트 구조
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `src/App.js`
 
-### `npm run build`
+- **목적**: React 애플리케이션의 루트 컴포넌트.
+- **기능**: 다른 컴포넌트를 임포트하여 렌더링하고 라우팅을 설정.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `src/components/BsNavbar.js`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **목적**: 내비게이션 바를 구현.
+- **기능**: 앱 내에서 이동할 수 있는 링크를 제공.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `src/pages/`
 
-### `npm run eject`
+- **목적**: 각각의 페이지 컴포넌트를 저장.
+- **기능**: 각 페이지는 특정 기능.`Gallery.js`는 이미지 갤러리를, `Member.js`는 회원 정보를 표시.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `src/initToken.js`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **목적**: JWT관련 학습.
+- **기능**: 인증을 위한 토큰과 관련된 초기 상태나 작업을 설정.
