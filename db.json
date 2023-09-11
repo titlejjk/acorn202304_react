@@ -1,0 +1,59 @@
+{
+  "cafes": [
+    {
+      "title": "글 제목 수정!!!",
+      "content": "글내용22\n\n수정합니다.",
+      "writer": "작성자2",
+      "id": 1
+    },
+    {
+      "title": "React SPA 를 학습하자",
+      "content": "라우터가 유용하네요",
+      "writer": "김구라",
+      "id": 9
+    },
+    {
+      "title": "ㅌㅌㅌ",
+      "content": "ㅌㅌㅌ",
+      "writer": "ㅌㅌㅌ",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "title": "xxx",
+      "id": 3
+    },
+    {
+      "title": "aaa",
+      "author": "김구라",
+      "id": 6
+    },
+    {
+      "title": "react 공부",
+      "author": "acorn",
+      "id": 7
+    },
+    {
+      "title": "react 공부",
+      "author": "acorn",
+      "id": 8
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "todos": [
+    {
+      "id": 1,
+      "title": "Read SitePoint article",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "title": "Make restaurant reservation",
+      "complete": false
+    }
+  ]
+}
